@@ -1,0 +1,44 @@
+.parent{
+  background-color: rgb(206, 15, 15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.stdcard{
+  background-color: aliceblue;
+  padding:20px;
+}
+
+.start{
+  background-color: rgb(197, 29, 147);
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.hello{
+  background-color: rgb(36, 191, 41);
+  color: rgb(142, 222, 31);
+  text-align: center;
+  padding: 10px;
+}
+
+.btn{
+  background-color: rgba(176, 206, 43, 0.979);
+  color: rgba(40, 34, 5, 0.831);
+  height: 30px;
+  width:100px;
+  align-items: center;
+  padding: 5px;
+}
+
+/* Simple spacing and product layout */
+.parent { background: #f3f4f6; gap: 12px; margin: 16px 0; border-radius: 8px; }
+.start { background: transparent; color: #0a0202; margin: 0; }
+.stdcard { background: white; border-radius: 6px; }
+.products { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.product-card { background: white; border: 1px solid #ddd; border-radius: 6px; padding: 12px 18px; min-width: 180px; }
+.product-card h3 { margin-top: 0; }
